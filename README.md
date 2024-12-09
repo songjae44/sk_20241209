@@ -22,4 +22,42 @@
   * `tab`키를 눌러서 하위 항목으로 이동하고, `shift` + `tab`을 눌러서 상위 항목으로 이동할 수 있다.
 
 ## 3. Code Block (코드 블록)
-> 작성한 코드를 정하거나 강조하고 싶은 부분을 나타낼 때 사용한다. inline과 block으로 구분된다 
+> 작성한 코드를 정하거나 강조하고 싶은 부분을 나타낼 때 사용한다.
+> inline과 block으로 구분된다.
+`git remote add https://github.com/USERNAME/REPOSITORYNAME`
+```bash
+    git add .
+    git commit -m "커밋메세지"
+    git push origin main
+```
+```python
+    print('hello world!')
+```
+
+## 4. Link (링크)
+> 특정 주소로 링크를 걸 때 사용한다.
+[깃허브](https://github.com)
+![](https://placeholder.com/200x200)
+
+### 5. Table (표)
+> `|`를 활용해 표를 작성할 수 있다.
+
+|번호|이름|
+|---|---|
+|1|최인규|
+|2|오승준|
+|3|박보현|
+|4|김회엽|
+
+### 6. ETC (기타)
+> 인용문
+ 
+수평선
+---
+***
+___
+*기울임체*
+
+**볼드체**
+
+~~취소선~~
